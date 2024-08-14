@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    flex: 1 1 40%;
+    display: flex;
+    background-image: url('imgs/halie-west-25xggax4bSA-unsplash.png');
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.form {
+    flex: 2 1 60%;
+}
+
+.title {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+.title img {
+    height: 90%;
+}
