@@ -49,3 +49,7 @@ h1 {
     font-size: 10px;
     margin: 5px;
 }
+
+.form-shadow-box {
+    border: 1px solid black;
+}
